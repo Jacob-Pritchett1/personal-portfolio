@@ -1,0 +1,15 @@
+.portfolio-picture {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.text {
+    position: absolute; /* Position the text div absolutely within the container */
+    top: 50%; /* Align to the center vertically */
+    left: 20px; /* Adjust left distance as needed */
+    transform: translateY(-50%); /* Center vertically using transform */
+}
+
+h1, p {
+    margin: 0; 
+}
